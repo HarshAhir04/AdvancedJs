@@ -1,1 +1,0 @@
-This is the series of a advanced javascript programming.
