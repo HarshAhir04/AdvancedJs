@@ -53,3 +53,29 @@ console.log(typeof outsideTemp);
 console.log(typeof userEmai);
 console.log(typeof id);
 console.log(typeof bignumber);
+
+//types of memory in javascipt
+//stack (primitive) use to copy value
+//heap (non-primitive) use the reference change in original data
+
+let myyoutubechannel="harsh ahir";
+let anothername=myyoutubechannel;
+anothername = "code with harsh";
+
+console.log(myyoutubechannel);
+console.log(anothername);
+
+let userOne = {
+    name: 'harsh',
+    age: 21
+};
+
+let usertwo = userOne;
+
+usertwo.age = 22;
+console.log(userOne);
+console.log(usertwo);
+
+console.log(userOne.age);
+console.log(usertwo.age);
+
