@@ -30,3 +30,30 @@ const obj1={
 };
 console.log(obj1.username);
 console.log(obj1["username"]);
+
+//interview question based on the get the symbol element from the object 
+const symbol1 = Symbol("hello Js");
+const symbol2 = Symbol("hello React");
+const obj2 = {
+    [symbol1]: "hello",
+    [symbol2]: "world"
+};
+console.log(obj2[symbol1]);
+console.log(typeof obj2.symbol1);
+console.log(typeof obj2[symbol1]);
+console.log(obj2);
+
+//merge the object from one object from the another object using 
+//1) spread operator
+//2) Object.assign
+
+const person = {
+    firtname:"harsh",
+    lastname:"kumar",
+    greet: function(){
+        console.log("hello here i am");
+    }
+};
+person.greet();
+console.log(person.greet);
+console.log(person.greet());
