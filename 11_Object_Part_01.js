@@ -22,3 +22,11 @@ user3.address = "velapur";
 user3.friends = ["karan", "kunal", "harsh"];
 console.log(user3);
 
+//interview question get the value of the object 
+const obj1={
+    username:"harsh",
+    password:123,
+    connected:true
+};
+console.log(obj1.username);
+console.log(obj1["username"]);
